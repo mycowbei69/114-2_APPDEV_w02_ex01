@@ -4,7 +4,7 @@ public class ex03 {
         String str="";
         for(int i=1;i<=10;i++){
             str +="|" +i;
-            total=i;
+            total+=i;
      
         }
         System.out.println(str+="|"+total);
